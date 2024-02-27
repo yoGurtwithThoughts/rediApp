@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:oech_app001/pages/session%203/profile_page.dart';
 import 'package:oech_app001/pages/session%203/send_a_package.dart';
 import 'package:oech_app001/pages/session%204/wallet_page.dart';
-import 'package:oech_app001/pages/session_5/home_page.dart';
+
 import 'package:oech_app001/widgets/bottom_bar_widget.dart';
 
 class MainPage extends StatefulWidget {
@@ -14,7 +14,7 @@ class MainPage extends StatefulWidget {
 }
 
 List<Widget> listPage = const <Widget>[
-  HomePage(),
+  
   WalletPage(),
   SendPackage(),
   ProfilePage(),
